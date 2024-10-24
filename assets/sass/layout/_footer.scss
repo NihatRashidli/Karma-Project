@@ -1,0 +1,89 @@
+.footer-section {
+    background-color: #232323;
+    color: #fff;
+    padding: 60px 0;
+    height: 600px;
+}
+
+.footer-section .container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    font-size: 16px;
+    color: #999;
+    line-height: 1.6;
+}
+
+.newsletter form {
+    display: flex;
+}
+
+.newsletter input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    width: 600px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.instagram-feed .instagram-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.instagram-feed img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-bottom a {
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    text-decoration: none;
+}
+
+.footer-bottom i {
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+}
