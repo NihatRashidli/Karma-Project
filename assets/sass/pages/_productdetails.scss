@@ -1,0 +1,151 @@
+.product-detail {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container-detail {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.product-image {
+    width: 540px;
+    height: 580px;
+    margin-right: 50px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 40px 0 10px 0;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-info .price {
+    font-size: 24px;
+    color: #ff9900;
+    margin: 10px 0;
+}
+
+.product-info .details {
+    margin-bottom: 15px;
+}
+
+.product-info .details p {
+    margin: 10px 10px 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+.details-first{
+    color: #e68a00;
+}
+
+.product-info .description {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+    margin:20px 0 60px 0;
+}
+
+.quantity-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-section label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.quantity-section input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart {
+    background-color: #ff9900;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #e68a00;
+}
+
+.icons {
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.icons .icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #828bb2;
+}
+
+.icons .icon :hover {
+    color: #ff9900;
+}
+.container-description{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid rgb(137, 137, 137);
+}
+.details-button{
+    width: 1198px;
+    height: 60px;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #e8f0f2;
+}
+.description-button{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.details-text{
+    padding: 20px;
+    color: #777;
+}

@@ -2,7 +2,7 @@
     background-color: #232323;
     color: #fff;
     padding: 60px 0;
-    height: 600px;
+    height: 500px;
 }
 
 .footer-section .container {
@@ -17,7 +17,8 @@
 }
 
 .footer-column {
-    width: 30%;
+    width: 25%;
+    padding: 0 20px 0;
 }
 
 .footer-column h3 {
@@ -80,10 +81,10 @@
 }
 
 .footer-bottom a {
-    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    color: #ff6c00;
     text-decoration: none;
 }
 
 .footer-bottom i {
-    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    color: #ff6c00;
 }
