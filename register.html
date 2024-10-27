@@ -116,7 +116,11 @@
                       <li>
                         <a class="dropdown-item" href="./login.html">Login</a>
                       </li>
-                      <li><a class="dropdown-item" href="./register.html">Register</a></li>
+                      <li>
+                        <a class="dropdown-item" href="./register.html"
+                          >Register</a
+                        >
+                      </li>
                       <li><a class="dropdown-item" href="#">Elements</a></li>
                     </ul>
                   </li>
@@ -154,28 +158,34 @@
 
     <section>
         <div class="container">
-            <div class="container-login">
-        <div class="login-left">
-          <div class="login-left-text">
+            <div class="container-register">
+        <div class="register-left">
+          <div class="register-left-text">
             <h3>New to our website?</h3>
             <p>
               There are advances being made in science and technology
               <br />everyday, and a good example of this is the
             </p>
-            <button class="login"><a href="./register.html">CREATE AN ACCOUNT</a></button>
+            <button class="register">CREATE AN ACCOUNT</button>
           </div>
         </div>
-        <div class="login-right">
+        <div class="register-right">
           <h2>Log in to enter</h2>
-          <form class="form-login" action="#">
-            <label class="login-label" for="username"></label>
-            <input class="login-input" type="text" id="username" name="username" required placeholder="Username" />
+          <form class="form-register" action="#">
+            <label class="register-label" for="name"></label>
+            <input class="register-input" type="text" id="name" name="name" required placeholder="First Name" />
+            <label class="register-label" for="name"></label>
+            <input class="register-input" type="text" id="name" name="name" required placeholder="Last Name" />
+            <label class="register-label" for="email"></label>
+            <input class="register-input" type="email" id="email" name="email" required placeholder="Email" />
 
             <label for="password"></label>
-            <input class="login-input" type="password" id="password" name="password" required placeholder="Password" />
+            <input class="register-input" type="password" id="password" name="password" required placeholder="Password" />
+            <label for="password"></label>
+            <input class="register-input" type="password" id="password" name="password" required placeholder="Retype Password" />
 
-            <div class="checkbox-container">
-              <input class="checkbox-container-input"
+            <div class="checkbox-container-register">
+              <input class="checkbox-container-input-register"
                 type="checkbox"
                 id="keep-logged-in"
                 name="keep-logged-in"
@@ -183,17 +193,14 @@
               <label for="keep-logged-in">Keep me logged in</label>
             </div>
 
-            <button class="login-button" type="submit">Log In</button>
+            <button class="register-button" type="submit">Sign Up</button>
 
-            <a href="#" class="forgot-password">Forgot Password?</a>
           </form>
         </div>
       </div>
         </div>
       
     </section>
-
-
 
     <footer class="footer-section">
         <div class="container">
@@ -244,6 +251,7 @@
             </div>
         </div>
     </footer>
+
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
