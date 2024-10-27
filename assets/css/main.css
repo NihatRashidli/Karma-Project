@@ -557,6 +557,35 @@ header {
      object-fit: cover;
 }
 
+.container-blogdetails {
+  display: flex;
+}
+
+.views-blogdetails {
+  width: auto;
+  margin: 30px 20px 0 0;
+  text-align: end;
+}
+
+.blogdetails-text {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.under-photo {
+  display: flex;
+}
+
+.blogdetails-photo img {
+  width: 730px;
+  height: 350px;
+}
+
+.mcse-boot {
+  margin-bottom: 50px;
+}
+
 .container-blog {
   display: flex;
 }
